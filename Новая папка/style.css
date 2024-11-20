@@ -1,0 +1,49 @@
+.parent{
+    height: 200px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.child1{
+    height: 30px;
+    width: 100%;
+    background-color: green;
+}
+.child2{
+    height: 30px;
+    width: 100%;
+    background-color: yellow;
+    z-index: 1;
+}
+.child3{
+    height: 30px;
+    width: 100%;
+    background-color: green;
+}
+.child4{
+    height: 30px;
+    width: 100%;
+    background-color: yellow;
+    z-index: 1;
+}
+.child5{
+    height: 30px;
+    width: 100%;
+    background-color: green;
+}
+.child6{
+    height: 30px;
+    width: 100%;
+    background-color: yellow;
+    z-index: 1;
+}
+.begana{
+    height: 195px;
+    width: 20px;
+    background-color: red;
+    position: relative;
+    top: -200px;
+    left: 80px;
+}
